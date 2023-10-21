@@ -1,7 +1,7 @@
 #!/bin/bash
 # =========================================
 BOT="https://raw.githubusercontent.com/myridwan/src/ipuk/"
-UPDATE="https://raw.githubusercontent.com/myridwan/VVIP/ipuk/update/update.sh"
+UPDATE="https://raw.githubusercontent.com/iceblue47/yeniwsssh/main/update/update.sh"
 GREEN='\033[0;32m'
 RED='\033[0;31m'
 ipsaya=$(wget -qO- ipinfo.io/ip)
@@ -207,7 +207,7 @@ case $opt in
 11) clear ; add-host ;;
 12) clear ; crtxray ;;
 13) clear ; auto-reboot ;;
-14) clear ; wget ${BOT}xolpanel.sh && chmod +x xolpanel.sh && ./xolpanel.sh ;;
+#14) clear ; wget ${BOT}xolpanel.sh && chmod +x xolpanel.sh && ./xolpanel.sh ;;
 999) clear ; $up2u ;;
 00 | 0) clear ; menu ;;
 *) clear ; menu ;;
