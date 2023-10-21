@@ -11,13 +11,13 @@ source /etc/os-release
 ver=$VERSION_ID
 
 #detail nama perusahaan
-country=ID
-state=INDONESIA
-locality=JAWATENGAH
-organization=Blogger
-organizationalunit=Blogger
+country=TR
+state=TURKEY
+locality=TURKEY
+organization=SOFTWARE ENGİNEER
+organizationalunit=SOFTWARE ENGİNEER
 commonname=none
-email=admin@sedang.my.id
+email=iceblue4747@gmail.com
 
 # simple password minimal
 curl -sS https://raw.githubusercontent.com/iceblue47/yeniwsssh/main/ssh/password | openssl aes-256-cbc -d -a -pass pass:scvps07gg -pbkdf2 > /etc/pam.d/common-password
