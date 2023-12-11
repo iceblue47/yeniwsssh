@@ -300,7 +300,7 @@ clear
 wget https://raw.githubusercontent.com/iceblue47/yeniwsssh/main/xray/ins-xray.sh && chmod +x ins-xray.sh && ./ins-xray.sh
 clear
 echo -e "$green[INFO]$NC Install SET-BR!"
-wget https://raw.githubusercontent.com/iceblue47/yeniwsssh/main/backup/set-br.sh && chmod +x set-br.sh && ./set-br.sh
+#wget https://raw.githubusercontent.com/iceblue47/yeniwsssh/main/backup/set-br.sh && chmod +x set-br.sh && ./set-br.sh
 clear
 echo -e "$green[INFO]$NC Install WEBSOCKET!"
 wget https://raw.githubusercontent.com/iceblue47/yeniwsssh/main/websocket/insshws.sh && chmod +x insshws.sh && ./insshws.sh
